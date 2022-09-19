@@ -1,0 +1,113 @@
+.settings {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url("https://archive.org/download/background-website-01/Background-website-01.jpg");
+  background-size: cover;
+}
+
+.settingsWrapper {
+  padding: 20px;
+  font-family: "Lora", serif;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75); 
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  border-radius: 15px;
+  height: 600px;
+  width: 600px;
+}
+
+.settingsDelete{
+  color: red;
+  font-size: 12px;
+  cursor: pointer;
+  margin: 20px 0px;
+  width: 100px;
+}
+
+.settingsForm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.settingsPP {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  justify-content: center;
+  position: relative;
+}
+
+.title {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.settingsPP > img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  overflow: hidden;
+  position: relative;
+}
+
+.settingsPPIcon {
+  background-color: #EFF1F5;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute;
+  font-size: 10px;
+  top: 75%;
+  left: 54%;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+
+.settingsForm > label {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 51px;
+}
+
+.settingsForm > input {
+  color: gray;
+  margin: 10px 0;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  width: 500px;
+  margin-left: 50px;
+}
+
+.settingsForm > input:focus {
+  outline: none;
+}
+
+.settingButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px 50px;
+}
+
+.settingsSubmit{
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: teal;
+  cursor: pointer;
+  padding: 10px;
+}

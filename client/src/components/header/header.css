@@ -1,0 +1,36 @@
+.header {
+  margin-top: 60px;
+}
+
+.headerTitles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Lora", serif;
+  color: #444;
+}
+
+.headerTitleSm {
+  position: absolute;
+  top: 16%;
+  font-size: 20px;
+}
+
+.headerTitleLg {
+  position: absolute;
+  top: 24%;
+  font-size: 100px;
+}
+
+.headerImg {
+  width: 100%;
+  height: 450px;
+  margin-top: 80px;
+  object-fit: cover;
+  background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("https://d2fni493fitngs.cloudfront.net/blog/wp-content/uploads/2019/02/12213414/whattowritehowtocreateblogcontent-planoly-banner.png?fbclid=IwAR2Fsx2knBLKBtYjcpZSULjjKA9x3FtbgL330Eq5DsdM5uw5wzjKQIvC_Ro");
+    background-size: cover;
+}
